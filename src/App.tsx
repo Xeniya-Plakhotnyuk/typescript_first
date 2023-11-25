@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from './conponents/Card';
 
-function App() {
+const App = () => {
   return (
-    <>
-    <Card width = "200px" height = "200px" />
-    </>
+  <div>
+    <Card width = "200px" height = "200px">
+<button>Button</button>
+      </Card>
+    </div>
   );
 }
 
