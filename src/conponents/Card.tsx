@@ -1,11 +1,17 @@
 import React from 'react';
 
-function Card() {
+interface CardProps{
+width?: string;
+height?: string;
+}
+
+const Card = ({width, height}: CardProps)  => {
   return (
-    <>
-    <h1>CARD</h1>
-    </>
-  );
+    
+    <div style={{width, height, background: "pink"}}>
+
+    </div>
+     );
 }
 
 export default Card;
